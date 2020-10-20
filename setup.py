@@ -1,5 +1,8 @@
 import setuptools
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 
 setuptools.setup(
     name="phypi",
@@ -7,7 +10,7 @@ setuptools.setup(
     author="Manas Mishra",
     author_email="mk1316a@gmail.com",
     description="A physics python libary",
-    # long_description=long_description,
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/manas1316am/phypi",
     packages=setuptools.find_packages(),
