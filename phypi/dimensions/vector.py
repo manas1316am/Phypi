@@ -5,7 +5,8 @@
     3. 2-D dot product => twoddotproduct(a1, b1, a2, b2)
     4. 3-D dot product => threeddotproduct(a1, b1, a2, b2, a3, b3)
 
-    5.
+    5. twodcrossproduct => twoddotproduct(a1, b1, a2, b2)
+    6. threedcrossproduct => threedcrossproduct(a1, b1, a2, b2, a3, b3)
 
 '''
 
