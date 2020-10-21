@@ -30,3 +30,11 @@ def velocitywithouttime(u: int, a: int, s: int):
         >> print(kinematics.velocitywithouttime(2,3,4))
     '''
     return u**2 + 2*a*s
+
+def rel_vel(v1: int, v2: int):
+    '''
+        [+] Relative velocity
+        >> from phypi.motion import kinematics
+        >> print(kinematics.rel_vel(10, 20))
+    '''
+    return v2 - v1
