@@ -15,7 +15,7 @@ pip install phypi
 This Code doesnt work now
 
 ```python
-    import test from test
+    from phypi.test import test
     # Testing the code
     test.say_hello()
     # Generate "Hello, user"
